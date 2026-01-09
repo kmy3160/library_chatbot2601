@@ -115,7 +115,7 @@ st.header("climatechange_01_수산 Q&A 챗봇 💬📚")
 option = st.selectbox("Select GPT Model", ("gpt-4o-mini", "gpt-3.5-turbo-0125"))
 
 # PDF 선택: (1) 레포에 있는 기본 PDF 경로, (2) 업로드
-DEFAULT_PDF = "[챗봇프로그램및실습] climatechange_01_수산.pdf"
+DEFAULT_PDF = "climatechange_01_수산.pdf"
 
 uploaded = st.file_uploader("PDF를 업로드하거나, 기본 PDF로 실행하세요.", type=["pdf"])
 pdf_path = None
